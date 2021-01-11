@@ -5,6 +5,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-color: #f0fff1; */
+  
 
 }
 
@@ -16,6 +18,4 @@ a:hover {
   transform: scale(1.1); 
 } 
 
-/* .active{ 
-  font-style: italic;
-} */
+

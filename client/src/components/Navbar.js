@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => (
-  <Box 
+  <Box activeClassName="header"
     height={70}
     color="transparent"
     padding={1}
@@ -12,9 +12,6 @@ const Navbar = () => (
     display="flex"
     alignItems="center"
     justifyContent="between"
-    
-    
-    
     
   >
 
@@ -56,14 +53,14 @@ const Navbar = () => (
     {/* Signup Link goes here */}
    <Box display="flex">
     <NavLink activeClassName="active" to="/signin" position="absolute" >
-      <Text size="md"  color="darkGray">Login</Text>
+      <Text bold size="md"  color="darkGray" >Login</Text>
       </NavLink>
       
-      <Text size="md">/</Text>
+      <Text size="md">|</Text>
    
    
     <NavLink activeClassName="active" to="/signup" >
-      <Text size="md" color="darkGray" >
+      <Text bold size="md" color="darkGray" >
         Register
       </Text>
 
