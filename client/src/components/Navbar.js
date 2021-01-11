@@ -25,7 +25,7 @@ const Navbar = () => (
 
     {/* Logo */}
 
-    <NavLink to="/">
+    <NavLink activeClassName="active" to="/">
       <Box
         display="flex"
         alignItems="center"
@@ -55,14 +55,14 @@ const Navbar = () => (
 
     {/* Signup Link goes here */}
    <Box display="flex">
-    <NavLink to="/signin" position="absolute" >
+    <NavLink activeClassName="active" to="/signin" position="absolute" >
       <Text size="md"  color="darkGray">Login</Text>
       </NavLink>
       
       <Text size="md">/</Text>
    
    
-    <NavLink to="/signup" >
+    <NavLink activeClassName="active" to="/signup" >
       <Text size="md" color="darkGray" >
         Register
       </Text>
